@@ -1,0 +1,527 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to the First Date Simulator. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\".",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to the First Date Simulator. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "You wake up from a long nap to hear a phone notification. You have several new matches on Tinder. Which conversation do you open first?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You wake up from a long nap to hear a phone notification. You have several new matches on Tinder. Which conversation do you open first?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 2,
+        "utterances": [
+          "dina"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Chat Room",
+      "text": "You open the chat with Dina and try to think of a message. What type of message do you want to send?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You open the chat with Dina and try to think of a message. What type of message do you want to send?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 3,
+        "utterances": [
+          "pun based comedy",
+          "pun",
+          "comedy"
+        ]
+      },
+      {
+        "sceneId": 4,
+        "utterances": [
+          "heartfelt response",
+          "heart felt response",
+          "heartfelt",
+          "heart felt"
+        ]
+      },
+      {
+        "sceneId": 7,
+        "utterances": [
+          "play it safe",
+          "safe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Comedic Message",
+      "text": "You typed a message: Hey Dina do you like hang gliding? I’d like to see a Dina soar.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You typed a message: Hey Dina do you like hang gliding? I’d like to see a Dina soar.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 10,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Heartfelt",
+      "text": "You type a message: Roses are red, violets are blue, you’re really cute, I love you.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You type a message: Roses are red, violets are blue, you’re really cute, I love you.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 9,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Apology",
+      "text": "You type a message: Sorry, I didn’t mean to offend you. I was just joking. Maybe we could meet up some time and I could apologize in person?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You type a message: Sorry, I didn’t mean to offend you. I was just joking. Maybe we could meet up some time and I could apologize in person?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 18,
+        "utterances": [
+          "send"
+        ]
+      },
+      {
+        "sceneId": 20,
+        "utterances": [
+          "give up"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Play it safe message",
+      "text": "You type a message: Hey.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You type a message: Hey.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 8,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Dina's Reply",
+      "text": "Dina replies: Hey.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina replies: Hey.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 14,
+        "utterances": [
+          "reply"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Game Over",
+      "text": "Dina did not reply to this message. It looks like you came on a bit too strong there Romeo.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\".",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina did not reply to this message. It looks like you came on a bit too strong there Romeo",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\"."
+    },
+    "options": []
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Dina's Reply",
+      "text": "Dina replies: My grandmother died in a hang gliding accident, that was really insensitive. Do you think you’re funny? …  You feel a bit embarrassed, maybe comedy isn’t the way to go.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina replies: My grandmother died in a hang gliding accident, that was really insensitive. Do you think you’re funny?........\n\nYou feel a bit embarrassed, maybe comedy isn’t the way to go.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 12,
+        "utterances": [
+          "keep at it"
+        ]
+      },
+      {
+        "sceneId": 5,
+        "utterances": [
+          "apologize"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "keep at it",
+      "text": "You type another message: Come on I thought that joke was Dina,  mite!",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You type another message: Come on I thought that joke was Dina,  mite!",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 13,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Game Over",
+      "text": "Dina unmatched you on Tinder and blocked you. Game over son.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\".",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina unmatched you on Tinder and blocked you. Game over son.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\"."
+    },
+    "options": []
+  },
+  {
+    "id": 14,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Continue Safe",
+      "text": "You type a message: I like your 2nd profile picture!",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You type a message: I like your 2nd profile picture!",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 15,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Dina's Reply",
+      "text": "A few days pass and Dina replies: thanks, that’s my friend and I in Santa Cruz.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "A few days pass and Dina replies: thanks, that’s my friend and I in Santa Cruz.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 16,
+        "utterances": [
+          "reply"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Continue Safe",
+      "text": "You type a message: Cool, do you go there a lot?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You type a message: Cool, do you go there a lot?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 17,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Game Over",
+      "text": "Dina did not reply, you start to think that you might have been ghosted. Better luck next time.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\".",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina did not reply, you start to think that you might have been ghosted. Better luck next time.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\"."
+    },
+    "options": []
+  },
+  {
+    "id": 18,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Send a Gif",
+      "text": "Dina did not respond. You start composing another message, but instead attach a gif of a sad cat.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina did not respond. You start composing another message, but instead attach a gif of a sad cat.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 19,
+        "utterances": [
+          "send"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Success!",
+      "text": "Dina replied: Sure, let’s get dinner.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Dina replied: Sure, let’s get dinner.",
+      "prompt": "Congratulations! You won! A continuation of this story will become available soon in Chapter 2 of the First Date Simulator."
+    },
+    "options": []
+  },
+  {
+    "id": 20,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Game Over",
+      "text": "You turn off you phone and walk out of the room in tears. You'll never hear from Dina again. Game Over, quitter.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\".",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You turn off you phone and walk out of the room in tears. You'll never hear from Dina again. Game Over, quitter.",
+      "prompt": "If you would like to go back to the previous scene say \"Go Back\", to try again say \"Restart\", or quit say \"exit\"."
+    },
+    "options": []
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "DinaIntent"
+    },
+    {
+      "intent": "PunBasedComedyIntent"
+    },
+    {
+      "intent": "HeartfeltResponseIntent"
+    },
+    {
+      "intent": "PlayItSafeIntent"
+    },
+    {
+      "intent": "SendIntent"
+    },
+    {
+      "intent": "GiveUpIntent"
+    },
+    {
+      "intent": "ReplyIntent"
+    },
+    {
+      "intent": "KeepAtItIntent"
+    },
+    {
+      "intent": "ApologizeIntent"
+    }
+  ]
+}

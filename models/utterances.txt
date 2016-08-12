@@ -1,0 +1,46 @@
+UnrecognizedIntent ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+ResetStateIntent reset skill
+ResetStateIntent start from the beginning
+ResetStateIntent restart
+ResetStateIntent clear progress
+RestoreStateIntent resume skill
+RestoreStateIntent continue progress
+RestoreStateIntent resume
+RestoreStateIntent continue
+RepeatOptionsIntent repeat options
+RepeatOptionsIntent repeat
+RepeatOptionsIntent say that again
+RepeatSceneIntent repeat scene
+GoBackIntent go back
+AMAZON.HelpIntent help
+AMAZON.HelpIntent tutorial
+AMAZON.StopIntent exit skill
+AMAZON.CancelIntent exit skill
+BeginIntent begin
+DinaIntent dina
+PunBasedComedyIntent pun based comedy
+PunBasedComedyIntent pun
+PunBasedComedyIntent comedy
+HeartfeltResponseIntent heartfelt response
+HeartfeltResponseIntent heart felt response
+HeartfeltResponseIntent heartfelt
+HeartfeltResponseIntent heart felt
+PlayItSafeIntent play it safe
+PlayItSafeIntent safe
+SendIntent send
+SendIntent send
+SendIntent send
+GiveUpIntent give up
+SendIntent send
+ReplyIntent reply
+KeepAtItIntent keep at it
+ApologizeIntent apologize
+SendIntent send
+SendIntent send
+ReplyIntent reply
+SendIntent send
+SendIntent send
